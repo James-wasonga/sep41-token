@@ -9,12 +9,17 @@ This repository uses the recommended structure for a Soroban project:
 
 ```text
 .
+.
 ├── contracts
-│   └── sep41-token
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
+│   └── sep41-token
+│       ├── src
+│       │   ├── lib.rs
+│       │   ├── our_token.rs
+│       │   ├── storage.rs
+│       │   ├── events.rs
+│       │   ├── error.rs
+│       │   └── test.rs
+│       └── Cargo.toml
 ├── Cargo.toml
 └── README.md
 ```
