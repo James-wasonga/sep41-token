@@ -1,0 +1,3 @@
+⚠️  `stellar contract install` is deprecated and will be removed in future versions of the CLI. Use `stellar contract upload` instead.
+ℹ️  Skipping install because wasm already installed
+bd63588a5538c2f5b1ceb814a3f8c8892e3d9747de7822bcba594f89d549c990

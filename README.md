@@ -4,6 +4,12 @@ SibToken is a custom token built on the Stellar Soroban smart contract platform.
 It follows the SEP-41 token standard and implements core token functionalities such as minting, burning, transfers, allowances, and delegated transfers.
 
 ---
+## 📦 Deployed Contract
+
+**Contract Address:**  
+`CCBQOYJ3HAAWHQ5HHQAV3C6V6HJKPOEZWFANZ5BVTLAWHZL3YYPB7FZO`
+
+---
 
 This repository uses the recommended structure for a Soroban project:
 

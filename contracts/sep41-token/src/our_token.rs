@@ -14,7 +14,7 @@ pub struct SibToken;
 impl SibToken {
 
     pub fn __constructor(env: Env, admin: Address, initial_supply: i128) {
-        admin.require_auth();
+        // admin.require_auth();
 
         env.storage().persistent().set(&DataKey::Admin, &admin);
 
