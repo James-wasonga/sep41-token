@@ -207,14 +207,6 @@ impl TokenInterface for SibToken {
 
         env.storage().persistent().set(&DataKey::TotalSupply, &(total_supply - amount));
 
-        // let key = DataKey::Allowance(AllowanceKey{
-        //     from: from.clone(),
-        //     spender: spender.clone(),
-         
-        // });
-
-        // env.storage().persistent().set(&key, &(allowance - amount));
-
         env.storage().persistent().set(
             &DataKey::Allowance(AllowanceKey {
                 from: from.clone(),
