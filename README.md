@@ -62,6 +62,3 @@ This project demonstrates a fully functional smart contract token written in Rus
 - `symbol()` → `"SIB"`
 - `decimals()` → `18`
 
----
-
-## 🏗️ Project Structure
